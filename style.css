@@ -1,0 +1,16 @@
+body{
+  background-color: indianred
+}
+
+.flex-container{
+  display: block;
+  margin: 40px;
+}
+
+.box {
+  display: inline-grid;
+  height: 55px;
+  width: 55px;
+  background-color: black;
+  margin-bottom: -4px; /*added this line*/
+}
