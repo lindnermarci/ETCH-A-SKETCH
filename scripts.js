@@ -23,6 +23,10 @@ function clear(){
 }
 function resize(){
     let rows = Number(prompt("How big the next board should be?"))
+    if(rows > 100 || rows < 1){
+        alert("Allowed range 1-100")
+        return
+    }
     containerDiv.innerHTML = '';
     const boxSize = FRAMESIZE/rows;
     let containerSize = boxSize*rows+BORDERSIZE*2;
