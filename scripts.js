@@ -22,7 +22,7 @@ function clear(){
     })
 }
 function resize(){
-    let rows = Number(prompt("How big the next board should be?"))
+    let rows = Number(prompt("How many rows and columns the next board should contain?"))
     if(rows > 100 || rows < 1){
         alert("Allowed range 1-100")
         return
