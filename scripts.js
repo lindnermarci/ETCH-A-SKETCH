@@ -49,7 +49,7 @@ function randomColor(){
 }
 
 function createButtons(){
-    const buttonDiv = document.createElement('button')
+    const buttonDiv = document.createElement('div')
     buttonDiv.classList.add('buttons') 
     
     buttonDiv.appendChild(createButton("Clear", "click", clear))
