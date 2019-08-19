@@ -44,4 +44,6 @@ button {
   .buttons{
 		width: 100%; 
 		margin: 0 auto;
+		margin-top: 20px;
+		text-align: center;
   }
